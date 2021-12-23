@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
+import 'Screens/screens.dart';
 
-void main()  => runApp(NetflixClone());
-
+void main() => runApp(NetflixClone());
 
 class NetflixClone extends StatelessWidget {
   @override
@@ -10,10 +10,11 @@ class NetflixClone extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
-        
+        scaffoldBackgroundColor: Colors.black,
         primarySwatch: Colors.blue,
+        visualDensity:VisualDensity.adaptivePlatformDensity,
       ),
-      home: ,
+      home: HomeScreen(),
     );
   }
 }
