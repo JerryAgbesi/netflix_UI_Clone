@@ -52,7 +52,7 @@ class ContentHeader extends StatelessWidget {
                 title: 'List',
                 tap: () => print('list'),
               ),
-              _PlayButton(),
+            const _PlayButton(),
               VerticalIconButton(
                 icon: Icons.info,
                 title: 'Info',
