@@ -12,15 +12,15 @@ final Content sintelContent = Content(
 
 final List<Content> previews = [
   Content(
-      name: 'Cursed',
-      imageUrl: Assets.cursed,
-      color: Colors.red,
-      titleImageUrl: Assets.cursedTitle),
-  Content(
       name: 'Umbrella Academy',
       imageUrl: Assets.umbrella,
       color: Colors.blueAccent,
       titleImageUrl: Assets.umbrellaTitle),
+  Content(
+      name: 'Cursed',
+      imageUrl: Assets.cursed,
+      color: Colors.red,
+      titleImageUrl: Assets.cursedTitle),
   Content(
       name: 'Avatar The Last Airbender',
       imageUrl: Assets.atlab,
@@ -34,7 +34,7 @@ final List<Content> previews = [
   Content(
       name: 'Black Mirror',
       imageUrl: Assets.blackMirror,
-      color: Colors.black,
+      color: Colors.lightBlue,
       titleImageUrl: Assets.blackMirrorTitle),
   Content(
       name: 'Carole and Tuesday',
