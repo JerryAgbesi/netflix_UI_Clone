@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:netflix/models/content_model.dart';
+import 'package:netflix/constants.dart';
 
 class Previews extends StatelessWidget {
   final String title;
@@ -16,10 +17,7 @@ class Previews extends StatelessWidget {
           padding: EdgeInsets.only(left: 30.0),
           child: Text(
             'Previews',
-            style: TextStyle(
-                color: Colors.white,
-                fontWeight: FontWeight.bold,
-                fontSize: 20.0),
+            style: textStyle,
           ),
         ),
         Container(

@@ -42,3 +42,26 @@ final List<Content> previews = [
       color: Colors.pinkAccent,
       titleImageUrl: Assets.caroleandTuesdayTitle),
 ];
+
+final List<Content> myList = [
+  Content(name: 'Narcos', imageUrl: Assets.narcos),
+  Content(name: 'How to sell drugs online (fast)', imageUrl: Assets.htsdof),
+  Content(name: 'Blood of zeus', imageUrl: Assets.bloodofZeus),
+  Content(name: 'Avatar The Last Airbender', imageUrl: Assets.atlab),
+  Content(name: 'dogs', imageUrl: Assets.dogs),
+];
+
+final List<Content> originals = [
+  Content(name: 'The Witcher', imageUrl: Assets.witcher),
+  Content(name: 'Stranger things', imageUrl: Assets.strangerThings),
+  Content(name: 'Explained', imageUrl: Assets.queensGambit),
+  Content(name: 'kakegurui', imageUrl: Assets.kakegurui),
+];
+
+final List<Content> trending = [
+  Content(name: 'Bridgerton', imageUrl: Assets.bridgerton),
+  Content(name: 'Breaking Bad', imageUrl: Assets.breakingBad),
+  Content(name: 'teotfw', imageUrl: Assets.teotfw),
+  Content(name: 'Tiger King', imageUrl: Assets.tigerKing),
+  Content(name: '13 reasons why', imageUrl: Assets.thirteenReasonsWhy),
+];
