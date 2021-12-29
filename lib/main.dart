@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:netflix/Screens/nav_screen.dart';
 import 'Screens/screens.dart';
 
 void main() => runApp(NetflixClone());
@@ -14,7 +15,7 @@ class NetflixClone extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity:VisualDensity.adaptivePlatformDensity,
       ),
-      home: HomeScreen(),
+      home: NavScreen(),
     );
   }
 }
