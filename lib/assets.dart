@@ -45,7 +45,7 @@ class Assets {
   static const String strangerThings = '${_images}stranger_things.jpg';
   static const String kakegurui = '${_images}kakegurui.jpg';
   static const String htsdof = '${_images}htsdof.jpg';
-  static const String breakingBad = '${_images}breaking_bad.jpg';
+  static const String breakingBad = '${_images}breaking_bad.jpeg';
   static const String queensGambit = '${_images}QueensGambit.jpg';
   static const String narcos = '${_images}narcos.jpg';
   static const String dontLookUp = '${_images}dont_look_up.jpg';

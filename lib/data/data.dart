@@ -56,6 +56,7 @@ final List<Content> originals = [
   Content(name: 'Stranger things', imageUrl: Assets.strangerThings),
   Content(name: 'Explained', imageUrl: Assets.queensGambit),
   Content(name: 'kakegurui', imageUrl: Assets.kakegurui),
+  Content(name: 'dont look up', imageUrl: Assets.dontLookUp),
 ];
 
 final List<Content> trending = [
