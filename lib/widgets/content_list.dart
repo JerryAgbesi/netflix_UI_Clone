@@ -28,7 +28,6 @@ class ContentList extends StatelessWidget {
           ),
         ),
         Container(
-         
           height: isOriginal ? 500 : 250,
           child: ListView.builder(
             scrollDirection: Axis.horizontal,
@@ -40,11 +39,11 @@ class ContentList extends StatelessWidget {
                   print(current.name);
                 },
                 child: Container(
-                   //changing the height and width of the images depending on the category of movies
+                  //changing the height and width of the images depending on the category of movies
                   height: isOriginal ? 400 : 200,
                   width: isOriginal ? 250 : 170,
                   margin:
-                      const EdgeInsets.symmetric(vertical: 8, horizontal: 16),
+                      const EdgeInsets.symmetric(vertical: 8, horizontal: 12),
                   decoration: BoxDecoration(
                     image: DecorationImage(
                         image: AssetImage(current.imageUrl), fit: BoxFit.cover),
