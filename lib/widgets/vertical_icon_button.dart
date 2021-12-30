@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:netflix/main.dart';
+
 
 class VerticalIconButton extends StatelessWidget {
   final IconData icon;

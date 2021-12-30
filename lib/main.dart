@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:netflix/Screens/nav_screen.dart';
-import 'Screens/screens.dart';
+
 
 void main() => runApp(NetflixClone());
 
@@ -9,12 +9,13 @@ class NetflixClone extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'Netflix',
       theme: ThemeData(
         scaffoldBackgroundColor: Colors.black,
         primarySwatch: Colors.blue,
         visualDensity:VisualDensity.adaptivePlatformDensity,
       ),
+    
       home: NavScreen(),
     );
   }

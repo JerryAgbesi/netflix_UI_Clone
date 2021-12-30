@@ -1,3 +1,4 @@
+// Class to access all the various picture files 
 class Assets {
   static const String _images = 'images/';
 
@@ -6,8 +7,8 @@ class Assets {
 
   static const String sintel = '${_images}sintel.jpg';
   static const String sintelTitle = '${_images}sintel_title.png';
-  static const String sintelVideo =
-      'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4';
+  // static const String sintelVideo =
+  //     'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4';
 
   static const String atlab = '${_images}atla.jpg';
   static const String atlabTitle = '${_images}atla_title.png';

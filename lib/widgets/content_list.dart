@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:netflix/models/content_model.dart';
 import 'package:netflix/constants.dart';
 
+// class responsible for rendering the horizontal list of images
+
 class ContentList extends StatelessWidget {
   final String title;
   final List<Content> contentList;
@@ -26,6 +28,7 @@ class ContentList extends StatelessWidget {
           ),
         ),
         Container(
+         
           height: isOriginal ? 500 : 250,
           child: ListView.builder(
             scrollDirection: Axis.horizontal,
@@ -37,6 +40,7 @@ class ContentList extends StatelessWidget {
                   print(current.name);
                 },
                 child: Container(
+                   //changing the height and width of the images depending on the category of movies
                   height: isOriginal ? 400 : 200,
                   width: isOriginal ? 250 : 170,
                   margin:

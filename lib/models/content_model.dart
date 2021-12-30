@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class Content {
   final String name;
   final String imageUrl;
